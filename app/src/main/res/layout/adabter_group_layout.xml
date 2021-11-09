@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="8dp"
+    android:background="#081351"
+    android:padding="10dp"
+    android:orientation="vertical">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:background="#040E49"
+        android:orientation="horizontal"
+        android:weightSum="100">
+
+        <TextView
+            android:id="@+id/teamName"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="50"
+            android:gravity="center"
+            android:textColor="#B8B8B8"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/group"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="30"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:textColor="#C1C1C1" />
+
+        <TextView
+
+            android:id="@+id/score"
+            android:layout_width="0dp"
+            android:layout_height="50dp"
+            android:layout_weight="20"
+            android:gravity="center"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
